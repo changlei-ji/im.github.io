@@ -1,6 +1,6 @@
 # 一个静态博客 Github pages 
 这是一个静态博客的网站
-> 注释 ：这个Action作者是 Hux，我这里是fork过来，修改了一些内容和主题，用于自己使用。这个code是我用于学习Action自动部署用的。
+> 注释 ：这个Action作者是 Hux，这里是fork过来，修改了一些内容和主题，用于自己使用。这个code是我用于学习Action自动部署用的。
 > 当然也可以使用项目站点和自定义域名。下面是静态网站的使用说明
 # 说明和使用方法
 ## 1._config.yml
@@ -8,7 +8,8 @@
 ## _includes 
 修改主题样式
 ## _posts 
-这里存放你的文章Markdown文件。这里是Markdown的头部配置信息。与vitepress差不多。
+```bash
+# 这里存放你的文章Markdown文件。这里是Markdown的头部配置信息。与vitepress差不多。
 ---
 layout:       post
 title:        "《JavaScript 二十年》推荐语"
@@ -21,6 +22,7 @@ tags:
 ---
 主要是title和标签tags，下面就是正文了。
 文件名写上日期，结尾是markdown即可。2026-01-13-比如 GithubAction使用技巧.markdown,提交完事，这里的actions就开始自动部署。
+```
 # workflow
 ```yml
 # This workflow uses actions that are not certified by GitHub.
