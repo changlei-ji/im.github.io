@@ -1,4 +1,4 @@
-# 一个静态博客 Github pages 
+# 静态博客 Github pages 
 这是一个静态博客的网站
 > 注释 ：这个Action作者是 Hux，这里是fork过来，修改了workflow部署step,并修改了一些内容和主题，用于自己使用。这个code是我用于学习Action自动部署用的。
 > 当然也可以使用项目站点和自定义域名。下面是静态网站的使用说明
