@@ -21,7 +21,7 @@ tags:
     - JavaScript
 ---
 主要是title和标签tags，下面就是正文了。
-文件名写上日期，结尾是markdown即可。2026-01-13-比如 GithubAction使用技巧.markdown,提交完事，这里的actions就开始自动部署。
+文件名写上日期，结尾是markdown即可。比如 2026-01-13-GithubAction使用技巧.markdown,提交完事，这里的actions就开始自动部署。
 ```
 # workflow
 ```yml
